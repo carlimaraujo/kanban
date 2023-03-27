@@ -260,13 +260,51 @@ main > .content {
     font-size: 50%;
   }
 
+  body {
+    width: fit-content;
+    height: fit-content;
+  }
+
   aside {
-    margin: 1.6rem 1.35rem 0 1.75rem;
-    padding: 2.4rem 1.6rem;
-    margin-left: 1.5rem;
+    position: fixed;
+    margin: 1rem;
+  }
+  aside .menu {
+    justify-content: center;
+  }
+  aside > img {
+    width: 4rem;
   }
 
   main {
     padding-top: 0.5rem;
+    margin-left: 7rem;
+  }
+
+  .content {
+    margin: 0 2rem;
+    margin: 0;
+  }
+
+  .option span {
+    display: none;
+  }
+
+  .cards .card {
+    padding: 0;
+    height: fit-content;
+    overflow: scroll;
+  }
+
+  .cards .card p {
+    margin: 0;
+  }
+
+  main {
+    gap: 1rem;
+  }
+
+  main .search button {
+    padding: 1rem;
   }
 }
